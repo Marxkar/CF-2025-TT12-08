@@ -10,7 +10,7 @@ module tb_jtag_tap;
     wire [7:0] uio_oe;
 
     // Instantiate DUT
-    tt_um_sakthi_jtag_tap dut (
+    tt_um_marxkar_jtag dut (
         .clk(clk),
         .rst_n(rst_n),
         .ena(ena),
