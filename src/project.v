@@ -1,9 +1,9 @@
-module tt_um_sakthi_jtag_tap(
+module tt_um_marxkar_jtag(
     input clk,                // TCLK
     input rst_n,              // Active-low reset (used as TRST)
     input ena,                // Always enabled
     input  [7:0] ui_in,       // Input pins: ui_in[0] = TDI, ui_in[1] = TMS, ui_in[2] = TRST
-    output [7:0] uo_out,      // Output pins: uo_out[0] = TDO, uo_out[7:1] = debug
+    output [7:0] uo_out,      // Output pins: uo_out[0] = TDO, uo_out[7:1] = debug.
     input  [7:0] uio_in,
     output [7:0] uio_out,
     output [7:0] uio_oe
