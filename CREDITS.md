@@ -1,0 +1,84 @@
+CEG Fabless Initiative Credits
+Project Team CF-2025-TT12-08
+Project Title: JTAG CONTROLLER
+
+Team Members
+Shailendher A
+Class: IV Year B.E. ECE
+Department of ECE, CEG
+Email: a.shailendher2004@gmail.com
+Sakthi Mohan S
+Class: IV Year B.E. ECE
+Department of ECE, CEG
+Email: sakthimohan26012005@gmail.com
+Rohith Kanna
+Class: III Year B.E. ECE
+Department of ECE, CEG
+Email: kannarohith01@gmail.com
+Kalivardhan
+Class: III Year B.E. ECE
+Department of ECE, CEG
+Email: 
+Swetha 
+Class: III Year B.E. ECE
+Department of ECE, CEG
+Email: ggswetha2006@gmail.com
+Thithika E
+Class: II Year B.E. ECE
+Department of ECE, CEG
+Email: thithikae@gmail.com
+Sahana
+Class: II Year B.E. ECE
+Department of ECE, CEG
+Email: sahanaprakash2006@gmail.com
+Dharshini
+Class: II Year B.E. ECE
+Department of ECE, CEG
+Email: dharshini29032007@gmail.com
+Alumni Mentors
+Kumaran 
+Class of 2017, Department of ECE, CEG
+Email: raghulvilangudi@gmail.com
+Sivakumar Anandan
+Class of 2013, Department of ECE, CEG
+Email: sivakumaranandan@live.com
+About CEG Fabless
+CEG Fabless is a Student-Faculty-Alumni Integrated Circuits design initiative at the Department of ECE, College of Engineering Guindy(CEG). Our mission is to enable students to explore, experiment and build ASICs to solve real world problems through collaborative mentorship from academia and industry experts.
+
+TinyTapeout Participation
+This project is part of the TinyTapeout 12 (TT12) shuttle program, with Team ID: CF-2025-TT12-08.
+
+Research References
+This project builds upon the following research works:
+
+https://medium.com/@aliaksandr.kavalchuk/diving-into-jtag-protocol-part-1-overview-fbdc428d3a16
+https://www.xjtag.com/about-jtag/jtag-a-technical-overview/
+https://vlsitutorials.com/jtag-test-access-port-and-tap-controller/
+http://www.sunburst-design.com/papers/CummingsSNUG1998SJ_FSM.pdf
+http://www.sunburst-design.com/papers/CummingsSNUG2019SV_FSM1.pdf
+
+CEG Fabless Initiative Credits
+Platform Credits
+TinyTapeout
+We thank TinyTapeout for providing the educational platform, design framework, and support that made this project possible.
+
+Efabless
+We acknowledge Efabless for their open-source PDK, and OpenLane tool flow that enabled our chip design.
+
+Department Acknowledgments
+Department of ECE Alumni
+We express our deepest gratitude to our DECE Alumni for:
+
+Their vision and support in establishing the CEG Fabless initiative
+Creating a bridge between academia and industry
+Fostering innovation and mentorship in VLSI design
+Department of ECE, CEG
+We sincerely thank:
+
+Dr. M.A.Bhagyaveni - Head of the Department
+For the guidance and encouragement throughout the project
+For providing the necessary infrastructure and resources
+For supporting student initiatives in semiconductor design
+Faculty Members of the VLSI Division
+For their technical guidance and support
+This initiative stands as a testament to the collaborative spirit between our alumni, faculty, and students in advancing VLSI education and research.
