@@ -29,6 +29,7 @@ module tt_um_marxkar_jtag(
     reg bypass;
     reg [1:0] shadow_bsr;
     reg [3:0] bsr;
+    wire bsr_wire;
 
     // Output debug (for optional observation)
     assign uo_out[1] = current_state[0];
@@ -104,7 +105,7 @@ module tt_um_marxkar_jtag(
             bsr <= 0;
             instruction <= 0;
         end else begin
-            bsr[0] <= bsr[1]; // replace bsr_wire logic with shifting dummy wire
+            bsr[0] <= bsr_wire; // replace bsr_wire logic with shifting dummy wire
             case (next_state)
                 test_logic_reset: begin
                     tdo <= 0;
@@ -126,6 +127,7 @@ module tt_um_marxkar_jtag(
                         2'b11: begin tdo <= bypass; bypass <= tdi; end
                         2'b01: begin tdo <= shadow_id_code[0]; shadow_id_code <= {tdi, shadow_id_code[7:1]}; end
                         2'b10: begin shadow_bsr <= {tdi, shadow_bsr[1]}; end
+                        default: begin end
                     endcase
                 end
 
@@ -135,6 +137,7 @@ module tt_um_marxkar_jtag(
 
                 shift_ir, exit_1_ir: begin
                     shadow_instruction <= {tdi, shadow_instruction[1]};
+                    tdo <= shadow_instruction[0];
                 end
 
                 update_ir: begin
@@ -151,9 +154,21 @@ module tt_um_marxkar_jtag(
                 update_dr: begin
                     if (instruction == 2'b10)
                         bsr[3:2] <= shadow_bsr;
+                    else if (instruction == 2'b11)
+                        tdo <= 0;
+                end
+
+                pause_dr : begin
+                    if (instruction == 2'b11) 
+                        tdo <= 0;
+                end
+
+                default : begin
                 end
             endcase
         end
     end
 
+
+d_flip_flop f1 (bsr[3], bsr[2], trst, bsr_wire);
 endmodule
