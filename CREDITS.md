@@ -1,7 +1,7 @@
 # CEG Fabless Initiative Credits
 
 ## Project Team CF-2025-TT12-08
-**Project Title:** JTAG CONTROLLER  
+**Project Title:** **JTAG CONTROLLER**  
 
 ---
 
