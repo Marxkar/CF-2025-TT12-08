@@ -16,17 +16,17 @@
   - Department of ECE, CEG  
   - Email: [sakthimohan26012005@gmail.com](mailto:sakthimohan26012005@gmail.com)
 
-- **Rohith Kanna**  
+- **Rohith Kanna M**  
   - Class: III Year B.E. ECE  
   - Department of ECE, CEG  
   - Email: [kannarohith01@gmail.com](mailto:kannarohith01@gmail.com)
 
-- **Kalivardhan**  
+- **Kalivardan K**  
   - Class: III Year B.E. ECE  
   - Department of ECE, CEG  
-  - Email: *Not Provided*
+  - Email: [kalivaradan333@gmail.com](mailto:kalivaradan333@gmail.com)
 
-- **Swetha**  
+- **Swetha G G**  
   - Class: III Year B.E. ECE  
   - Department of ECE, CEG  
   - Email: [ggswetha2006@gmail.com](mailto:ggswetha2006@gmail.com)
@@ -36,12 +36,12 @@
   - Department of ECE, CEG  
   - Email: [thithikae@gmail.com](mailto:thithikae@gmail.com)
 
-- **Sahana**  
+- **Sahana Prakash**  
   - Class: II Year B.E. ECE  
   - Department of ECE, CEG  
   - Email: [sahanaprakash2006@gmail.com](mailto:sahanaprakash2006@gmail.com)
 
-- **Dharshini**  
+- **Dharshini A**  
   - Class: II Year B.E. ECE  
   - Department of ECE, CEG  
   - Email: [dharshini29032007@gmail.com](mailto:dharshini29032007@gmail.com)
