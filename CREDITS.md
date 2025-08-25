@@ -49,7 +49,7 @@
 ---
 
 ## Alumni Mentors
-- **Kumaran**  
+- **Raghulkumaran G**  
   - Class of 2017, Department of ECE, CEG  
   - Email: [raghulvilangudi@gmail.com](mailto:raghulvilangudi@gmail.com)
 
