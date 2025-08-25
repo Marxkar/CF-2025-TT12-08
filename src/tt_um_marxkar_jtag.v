@@ -15,6 +15,10 @@ module tt_um_marxkar_jtag(
     wire trst = ~rst_n;  // since rst_n is active-low
     wire tclk = clk;
 
+    wire _unused_ena     = ena;
+    wire _unused_ui_in   = |ui_in[7:3];
+    wire _unused_uio_in  = |uio_in;
+
     // Output mapping
     reg tdo;
     assign uo_out[0] = tdo;
@@ -106,6 +110,7 @@ module tt_um_marxkar_jtag(
             instruction <= 0;
         end else begin
             bsr[0] <= bsr_wire; // replace bsr_wire logic with shifting dummy wire
+            tdo <= 0;
             case (next_state)
                 test_logic_reset: begin
                     tdo <= 0;
