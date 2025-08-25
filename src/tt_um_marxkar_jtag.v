@@ -16,7 +16,7 @@ module tt_um_marxkar_jtag(
     wire tclk = clk;
 
     wire _unused_ena     = ena;
-    wire _unused_ui_in   = |ui_in[7:3];
+    wire _unused_ui_in   = |ui_in[7:2];
     wire _unused_uio_in  = |uio_in;
 
     // Output mapping
@@ -111,6 +111,12 @@ module tt_um_marxkar_jtag(
         end else begin
             bsr[0] <= bsr_wire; // replace bsr_wire logic with shifting dummy wire
             tdo <= 0;
+            bypass <= bypass;
+            shadow_bsr <= shadow_bsr;
+            shadow_instruction <= shadow_instruction;
+            shadow_id_code <= shadow_id_code;
+            bsr[3:1] <= bsr[3:1];
+            instruction <= instruction;
             case (next_state)
                 test_logic_reset: begin
                     tdo <= 0;
